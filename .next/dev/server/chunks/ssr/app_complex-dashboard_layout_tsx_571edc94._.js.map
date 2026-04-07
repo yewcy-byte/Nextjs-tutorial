@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/hello-world/app/complex-dashboard/layout.tsx"],"sourcesContent":["\r\n\r\nexport default function ComplexDashboardLayout({\r\nchildren,\r\nusers,\r\nrevenue,\r\nnotification,\r\nlogin,\r\n}: {\r\n    \r\n    children: React.ReactNode;\r\n    users: React.ReactNode;\r\n    revenue: React.ReactNode;\r\n    notification: React.ReactNode;\r\n    login: React.ReactNode;\r\n  }){\r\n\r\nconst isLoggedIn = false;\r\n\r\n\r\n    return isLoggedIn?(\r\n           <div>\r\n      <div>{children}</div>\r\n      <div style={{ display: \"flex\" }}>\r\n        <div style={{ display: \"flex\", flexDirection: \"column\" }}>\r\n          <div>{users}</div>\r\n          <div>{revenue}</div>\r\n        </div>\r\n        <div style={{ display: \"flex\", flex: 1 }}>{notification}</div>\r\n      </div>\r\n    </div>\r\n    ) : (\r\n      login\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS,uBAAuB,EAC/C,QAAQ,EACR,KAAK,EACL,OAAO,EACP,YAAY,EACZ,KAAK,EAQF;IAEH,MAAM,aAAa;IAGf,OAAO,oDACA,0BAWL;AAEN","debugId":null}}]
+}

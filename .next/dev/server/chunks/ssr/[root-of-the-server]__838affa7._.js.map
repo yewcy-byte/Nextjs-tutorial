@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/hello-world/app/complex-dashboard/%40users/default.tsx"],"sourcesContent":["import { Card } from \"@/components/Card\";\r\n\r\nexport default function UserAnalytics() {\r\n  return <Card>Default User Analystics</Card>;\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,2HAAI;kBAAC;;;;;;AACf","debugId":null}}]
+}

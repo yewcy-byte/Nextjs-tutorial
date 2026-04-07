@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/hello-world/app/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\n\r\n\r\nexport default function Home(){\r\n    return (\r\n        <>\r\n        <h1>Welcome Home</h1>\r\n        <Link href=\"/blog\">Blog</Link>\r\n        <br></br>\r\n        <Link href=\"/product\">Products</Link>\r\n        <br></br>\r\n        <br></br>\r\n\r\n        <Link href=\"/articles/breaking-news-123?lang=en\">Read in English</Link>\r\n               <br></br>\r\n\r\n        <Link href=\"/articles/breaking-news-123?lang=fr\">Read in French</Link>\r\n\r\n\r\n        </>\r\n    ) ;\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAIe,SAAS;IACpB,qBACI;;0BACA,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,0LAAI;gBAAC,MAAK;0BAAQ;;;;;;0BACnB,8OAAC;;;;;0BACD,8OAAC,0LAAI;gBAAC,MAAK;0BAAW;;;;;;0BACtB,8OAAC;;;;;0BACD,8OAAC;;;;;0BAED,8OAAC,0LAAI;gBAAC,MAAK;0BAAsC;;;;;;0BAC1C,8OAAC;;;;;0BAER,8OAAC,0LAAI;gBAAC,MAAK;0BAAsC;;;;;;;;AAKzD","debugId":null}}]
+}

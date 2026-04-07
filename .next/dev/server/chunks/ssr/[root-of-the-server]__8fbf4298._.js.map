@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/hello-world/app/f1/f2/inner-f2/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\n\r\nexport default function innerf2(){\r\n    return <h1>inner F2 page\r\n    <Link href=\"/f5\">F5</Link>\r\n</h1>;\r\n   \r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACpB,qBAAO,8OAAC;;YAAG;0BACX,8OAAC,0LAAI;gBAAC,MAAK;0BAAM;;;;;;;;;;;;AAGrB","debugId":null}}]
+}

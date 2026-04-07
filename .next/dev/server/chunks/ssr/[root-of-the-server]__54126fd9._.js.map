@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/hello-world/app/f1/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\n\r\nexport default function f1(){\r\n    return (\r\n    <>\r\n    \r\n    <h1>F1 page</h1>;\r\n    <div>\r\n        <Link href={\"/f1/f2\"}>F2</Link>\r\n\r\n        <Link href={\"/f3\"}>F3</Link>\r\n\r\n    </div>\r\n    </>\r\n    \r\n    );\r\n   \r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACpB,qBACA;;0BAEA,8OAAC;0BAAG;;;;;;YAAY;0BAChB,8OAAC;;kCACG,8OAAC,0LAAI;wBAAC,MAAM;kCAAU;;;;;;kCAEtB,8OAAC,0LAAI;wBAAC,MAAM;kCAAO;;;;;;;;;;;;;;AAO3B","debugId":null}}]
+}
