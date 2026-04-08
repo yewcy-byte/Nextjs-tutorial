@@ -96,21 +96,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$photo$2d$feed$2f$phot
 const images = [
     {
         id: "1",
-        name: "Great Wall of China",
+        name: "CY Pengawas",
         src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$photo$2d$feed$2f$photos$2f$photo1$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$photo$2d$feed$2f$photos$2f$photo1$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
         photographer: "Photo by Max van den Oetelaar on Unsplash",
         location: "China"
     },
     {
         id: "2",
-        name: "Petra",
+        name: "CY Graduate",
         src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$photo$2d$feed$2f$photos$2f$photo2$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$photo$2d$feed$2f$photos$2f$photo2$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
         photographer: "Photo by Reiseuhu on Unsplash",
         location: "Jordan"
     },
     {
         id: "3",
-        name: "Christ the Redeemer",
+        name: "CY Editor",
         src: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$photo$2d$feed$2f$photos$2f$photo3$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$photo$2d$feed$2f$photos$2f$photo3$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
         photographer: "Photo by Andrea Leopardi on Unsplash",
         location: "Brazil"

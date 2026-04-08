@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/product/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\n\r\n\r\n\r\n\r\nexport default function products(){\r\n\r\n    const productId = 100;\r\n    return <>\r\n    \r\n    <h1>All Products</h1>\r\n    <h2>\r\n<Link href=\"/product/1\">Product 1</Link>\r\n\r\n    </h2>\r\n\r\n<h2>\r\n<Link href=\"/product/2\">Product 2</Link>\r\n\r\n    </h2>\r\n<h2>\r\n<Link href=\"/product/3\" replace /*jump straight to home*/>Product 3</Link>\r\n\r\n    </h2>\r\n\r\n    <h2>\r\n<Link href={`product/${productId}`}>Product {productId}</Link>\r\n\r\n    </h2>\r\n\r\n\r\n<Link href=\"/\">Home</Link>\r\n\r\n</>\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAMe,SAAS;IAEpB,MAAM,YAAY;IAClB,qBAAO;;0BAEP,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BACL,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAa;;;;;;;;;;;0BAIxB,8OAAC;0BACD,cAAA,8OAAC,0LAAI;oBAAC,MAAK;8BAAa;;;;;;;;;;;0BAGxB,8OAAC;0BACD,cAAA,8OAAC,0LAAI;oBAAC,MAAK;oBAAa,OAAO;8BAA2B;;;;;;;;;;;0BAItD,8OAAC;0BACL,cAAA,8OAAC,0LAAI;oBAAC,MAAM,CAAC,QAAQ,EAAE,WAAW;;wBAAE;wBAAS;;;;;;;;;;;;0BAK7C,8OAAC,0LAAI;gBAAC,MAAK;0BAAI;;;;;;;;AAGf","debugId":null}}]
+}

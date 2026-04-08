@@ -14,21 +14,21 @@ export type imagedata = {
 const images: imagedata[] = [
   {
     id: "1",
-    name: "Great Wall of China",
+    name: "CY Pengawas",
     src: photo1,
     photographer: "Photo by Max van den Oetelaar on Unsplash",
     location: "China",
   },
   {
     id: "2",
-    name: "Petra",
+    name: "CY Graduate",
     src: photo2,
     photographer: "Photo by Reiseuhu on Unsplash",
     location: "Jordan",
   },
   {
     id: "3",
-    name: "Christ the Redeemer",
+    name: "CY Editor",
     src: photo3,
     photographer: "Photo by Andrea Leopardi on Unsplash",
     location: "Brazil",
