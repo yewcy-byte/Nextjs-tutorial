@@ -1,5 +1,5 @@
 import Image from "next/image";
-import images, {imagedata} from "../../metadata";
+import images, {imagedata} from "../metadata";
 
 
 export default async function PhotoPage ({params,

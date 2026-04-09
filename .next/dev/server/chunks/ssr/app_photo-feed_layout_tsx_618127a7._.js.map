@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/photo-feed/layout.tsx"],"sourcesContent":["import \"../globals.css\";\r\n\r\nexport default function Layout(props: {\r\n  modal: React.ReactNode;\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <>\r\n      {props.modal}\r\n      {props.children}\r\n    </>\r\n  );\r\n}"],"names":[],"mappings":";;;;;;;AAEe,SAAS,OAAO,KAG9B;IACC,qBACE;;YACG,MAAM,KAAK;YACX,MAAM,QAAQ;;;AAGrB","debugId":null}}]
+}

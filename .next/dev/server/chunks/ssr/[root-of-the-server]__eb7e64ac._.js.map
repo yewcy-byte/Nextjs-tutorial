@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/photo-feed/%40modal/default.tsx"],"sourcesContent":["export default function Default(){\r\n    return null;\r\n}"],"names":[],"mappings":";;;;AAAe,SAAS;IACpB,OAAO;AACX","debugId":null}}]
+}
