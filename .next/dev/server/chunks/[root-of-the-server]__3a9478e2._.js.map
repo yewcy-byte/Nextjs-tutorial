@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/proxy.ts"],"sourcesContent":["import {NextResponse} from \"next/server\";\r\nimport type {NextRequest} from \"next/server\";\r\n\r\nexport function middleware(request:NextRequest){\r\n    return NextResponse.redirect(new URL(\"/\", request.url));\r\n}\r\n\r\nexport const config ={\r\n    matcher: \"\"\r\n}"],"names":[],"mappings":";;;;;;AAAA;;AAGO,SAAS,WAAW,OAAmB;IAC1C,OAAO,8IAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,KAAK,QAAQ,GAAG;AACzD;AAEO,MAAM,SAAQ;IACjB,SAAS;AACb","debugId":null}}]
+}

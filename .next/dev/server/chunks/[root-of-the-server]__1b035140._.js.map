@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/routeHandlers/time/route.ts"],"sourcesContent":["export const dynamic = \"force-static\";\r\n\r\n\r\nexport async function GET(){\r\n    return Response.json({time: new Date().toLocaleTimeString()});\r\n}\r\n\r\n\r\n\r\n"],"names":[],"mappings":";;;;;;AAAO,MAAM,UAAU;AAGhB,eAAe;IAClB,OAAO,SAAS,IAAI,CAAC;QAAC,MAAM,IAAI,OAAO,kBAAkB;IAAE;AAC/D","debugId":null}}]
+}

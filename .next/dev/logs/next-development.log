@@ -1,268 +1,181 @@
-[00:00:02.556] Server  LOG      ✓ Ready in 1694ms
-[00:00:06.320] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.569] Browser WARN    Image with src "/_next/static/media/photo1.882b6cce.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:34.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:34.835] Browser WARN    Image with src "/_next/static/media/photo1.882b6cce.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:38.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:39.134] Browser WARN    Image with src "/_next/static/media/photo2.e6ce811b.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:10:45.597] Server  LOG      ✓ Compiled in 111ms
-[00:10:45.620] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:10:46.848] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:51.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:35:34.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:36:02.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:36:40.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:36:50.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:37:03.892] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:37:13.764] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:37:33.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:37:57.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:38:00.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:33:23.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:34:17.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:34:33.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:34:59.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:35:09.554] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:35:19.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:37:47.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:37:47.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:38:21.978] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:38:22.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:38:45.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:38:46.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:57:29.305] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:59:38.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[11:00:22.690] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.613] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:27.614] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:29.989] Browser ERROR   uncaughtError: Error: ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[00:00:03.654] Server  LOG      ✓ Ready in 2.6s
+[00:00:10.873] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:18.185] Server  LOG     Bearer 12345
+[00:04:55.674] Server  LOG     Bearer 1234567
+[00:08:14.042] Server  LOG     null
+[00:08:14.362] Server  ERROR   TypeError: Headers.append: "Content -Type" is an invalid header name.
+[00:08:29.024] Server  LOG     null
+[00:08:29.200] Server  ERROR   TypeError: Headers.append: "Content -Type" is an invalid header name.
+[00:08:46.576] Server  LOG     null
+[00:08:46.758] Server  ERROR   TypeError: Headers.append: "Content -Type" is an invalid header name.
+[00:09:16.384] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:21.429] Server  LOG     null
+[00:09:21.615] Server  ERROR   TypeError: Headers.append: "Content -Type" is an invalid header name.
+[00:10:06.550] Server  LOG     null
+[00:10:47.582] Server  LOG     null
+[00:33:33.463] Server  LOG     Bearer 1234567
+[00:37:50.833] Server  LOG     Bearer 1234567
+[00:37:50.836] Server  LOG     {}
+[00:40:31.027] Server  LOG     Bearer 1234567
+[00:40:31.028] Server  LOG     {}
+[00:42:23.819] Server  LOG     Bearer 1234567
+[00:42:23.820] Server  LOG     {}
+[00:42:23.824] Server  LOG     {}
+[02:04:21.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:54.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:06:02.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:06:50.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:07:06.493] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:44:12.752] Server  ERROR    ⨯ ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
 
 
-[11:00:29.989] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:43.581] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:00:46.042] Browser ERROR   ./app
-An issue occurred while preparing your Next.js app
-Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
-[11:01:30.187] Server  LOG      ✓ Compiled in 112ms
-[11:01:30.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[23:27:12.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[23:47:19.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[24:29:24.589] Server  ERROR   TypeError: Value is not JSON serializable
-[24:30:05.997] Server  ERROR   TypeError: Value is not JSON serializable
-[24:30:33.555] Server  ERROR   TypeError: Value is not JSON serializable
-[24:31:42.984] Server  ERROR   TypeError: Value is not JSON serializable
-[24:31:46.616] Server  ERROR   TypeError: Value is not JSON serializable
-[24:39:46.375] Server  ERROR   TypeError: Value is not JSON serializable
-[24:49:05.110] Server  LOG      ✓ Compiled in 229ms
+[02:44:14.630] Server  ERROR    ⨯ ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+
+[02:44:15.199] Browser ERROR   uncaughtError: Error: ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+
+[02:44:15.421] Browser ERROR   ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+[02:44:15.421] Browser ERROR   ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+[02:44:17.273] Server  ERROR    ⨯ ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+
+[02:44:17.873] Browser ERROR   uncaughtError: Error: ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+
+[02:44:18.025] Browser ERROR   ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+[02:44:18.025] Browser ERROR   ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+[02:44:34.614] Browser ERROR   ./app/routeHandlers/time/route.ts:1:14
+Next.js can't recognize the exported `dynamic` field in route. It has an invalid value: unknown variant `force.static`, expected one of `auto`, `force-dynamic`, `error`, `force-static`.
+> 1 | export const dynamic = "force.static";
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 |
+  4 | export async function GET(){
+
+The exported configuration object in a source file needs to have a very specific format from which some properties can be statically parsed at compiled-time.
+
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+[02:53:24.718] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[02:53:24.778] Server  LOG      ✓ Compiled in 15ms
+[02:54:12.648] Server  LOG      ✓ Compiled in 28ms
+[02:55:45.462] Server  LOG      ✓ Compiled in 8ms
+[03:12:55.890] Server  LOG      ✓ Compiled in 19ms
+[03:13:05.072] Server  LOG      ✓ Compiled in 28ms
+[03:13:13.234] Server  LOG      ✓ Compiled in 9ms
+[03:13:48.477] Server  LOG      ✓ Compiled in 10ms
+[03:14:03.365] Server  LOG      ✓ Compiled in 10ms
+[03:14:11.201] Server  ERROR    ⨯ The file "./proxy.ts" must export a function, either as a default export or as a named "proxy" export.
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[03:14:11.217] Server  LOG      ✓ Compiled in 16ms
+[03:14:24.096] Server  LOG      ✓ Compiled in 8ms
+[03:14:36.178] Server  LOG      ✓ Compiled in 11ms
+[03:14:38.384] Server  LOG      ✓ Compiled in 96ms
+[03:14:54.466] Server  LOG      ✓ Compiled in 4ms
+[03:14:58.928] Server  LOG      ✓ Compiled in 5ms
+[03:15:00.489] Server  LOG      ✓ Compiled in 4ms
+[03:15:11.376] Server  LOG      ✓ Compiled in 29ms
+[03:15:12.948] Server  LOG      ✓ Compiled in 15ms
+[03:15:23.266] Server  LOG      ✓ Compiled in 11ms
+[03:15:26.422] Server  LOG      ✓ Compiled in 12ms
