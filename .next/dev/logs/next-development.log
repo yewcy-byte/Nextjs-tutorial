@@ -23,3 +23,246 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [09:37:33.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [09:37:57.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [09:38:00.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:33:23.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:34:17.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:34:33.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:34:59.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:35:09.554] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:35:19.316] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:37:47.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:37:47.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:38:21.978] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:38:22.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:38:45.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:38:46.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:57:29.305] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:59:38.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:00:22.690] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.613] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:27.614] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:29.989] Browser ERROR   uncaughtError: Error: ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+
+
+[11:00:29.989] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:43.581] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:00:46.042] Browser ERROR   ./app
+An issue occurred while preparing your Next.js app
+Conflicting route and page at /routeHandlers/profile/api: route at /routeHandlers/profile/api/route and page at /routeHandlers/profile/api/page
+[11:01:30.187] Server  LOG      ✓ Compiled in 112ms
+[11:01:30.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:27:12.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[23:47:19.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[24:29:24.589] Server  ERROR   TypeError: Value is not JSON serializable
+[24:30:05.997] Server  ERROR   TypeError: Value is not JSON serializable
+[24:30:33.555] Server  ERROR   TypeError: Value is not JSON serializable
+[24:31:42.984] Server  ERROR   TypeError: Value is not JSON serializable
+[24:31:46.616] Server  ERROR   TypeError: Value is not JSON serializable
+[24:39:46.375] Server  ERROR   TypeError: Value is not JSON serializable
+[24:49:05.110] Server  LOG      ✓ Compiled in 229ms

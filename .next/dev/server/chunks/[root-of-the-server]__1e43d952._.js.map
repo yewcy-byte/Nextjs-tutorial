@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/routeHandlers/dashboard/users/route.ts"],"sourcesContent":["export async function GET(){\r\n    return new Response(\"User Data\");\r\n}"],"names":[],"mappings":";;;;AAAO,eAAe;IAClB,OAAO,IAAI,SAAS;AACxB","debugId":null}}]
+}
