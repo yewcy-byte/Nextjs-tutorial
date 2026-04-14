@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/f5/page.tsx"],"sourcesContent":["export default function f5(){\r\n    return <h1>F5 page</h1>;\r\n}\r\n\r\n"],"names":[],"mappings":"oVAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,WACf"}

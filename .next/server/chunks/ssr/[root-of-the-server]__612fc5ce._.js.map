@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/f1/(..)f3/page.tsx"],"sourcesContent":["export default function Interceptedf3(){\r\n    return <h1>(..) Intercpeted f3 page</h1>;\r\n   \r\n}"],"names":[],"mappings":"oVAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,4BAEf"}

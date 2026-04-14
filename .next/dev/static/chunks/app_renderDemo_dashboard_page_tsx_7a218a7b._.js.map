@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/dashboard/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport {useState} from \"react\";\r\n\r\nexport default function DashboardPage(){\r\n    console.log(\"Dashboard client component\");\r\nconst [name, setName] = useState(\"\");\r\n\r\nreturn(\r\n    <div>\r\n        <h1>Dashboard</h1>\r\n        <input value = {name} onChange = {(e) => setName(e.target.value)} />\r\n        <p>Hello, {name}!</p>\r\n    </div>\r\n);\r\n}"],"names":[],"mappings":";;;;;AAEA;;;AAFA;;AAIe,SAAS;;IACpB,QAAQ,GAAG,CAAC;IAChB,MAAM,CAAC,MAAM,QAAQ,GAAG,IAAA,yKAAQ,EAAC;IAEjC,qBACI,6LAAC;;0BACG,6LAAC;0BAAG;;;;;;0BACJ,6LAAC;gBAAM,OAAS;gBAAM,UAAY,CAAC,IAAM,QAAQ,EAAE,MAAM,CAAC,KAAK;;;;;;0BAC/D,6LAAC;;oBAAE;oBAAQ;oBAAK;;;;;;;;;;;;;AAGxB;GAXwB;KAAA","debugId":null}}]
+}

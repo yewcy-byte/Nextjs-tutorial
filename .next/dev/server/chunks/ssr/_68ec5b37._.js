@@ -35,111 +35,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$error$2d$wrapper$2e$t
 ;
 __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$error$2d$wrapper$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
 }),
-"[project]/app/layout.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/app/layout.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>MarketingLayout,
-    "metadata",
-    ()=>metadata
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$error$2d$wrapper$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/error-wrapper.tsx [app-rsc] (ecmascript)");
-;
-;
-;
-const metadata = {
-    title: {
-        template: "%s | template",
-        default: "Next js tutorial default"
-    }
-};
-function MarketingLayout({ children }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
-        lang: "en",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                    style: {
-                        backgroundColor: "lightblue",
-                        padding: "1rem",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        display: "flex"
-                    },
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            backgroundColor: "blue",
-                            borderRadius: "20px",
-                            color: "white",
-                            padding: "10px",
-                            width: "50px",
-                            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.5)",
-                            cursor: "pointer"
-                        },
-                        children: "Header"
-                    }, void 0, false, {
-                        fileName: "[project]/app/layout.tsx",
-                        lineNumber: 23,
-                        columnNumber: 9
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/app/layout.tsx",
-                    lineNumber: 22,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$error$2d$wrapper$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ErrorWrapper"], {
-                    children: [
-                        " ",
-                        children
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/layout.tsx",
-                    lineNumber: 26,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                    style: {
-                        backgroundColor: "ghostwhite",
-                        padding: "1rem",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        display: "flex"
-                    },
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            backgroundColor: "grey",
-                            borderRadius: "20px",
-                            color: "white",
-                            padding: "10px",
-                            width: "50px",
-                            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.5)",
-                            cursor: "pointer"
-                        },
-                        children: "Footer"
-                    }, void 0, false, {
-                        fileName: "[project]/app/layout.tsx",
-                        lineNumber: 32,
-                        columnNumber: 3
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/app/layout.tsx",
-                    lineNumber: 31,
-                    columnNumber: 1
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/layout.tsx",
-            lineNumber: 21,
-            columnNumber: 6
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/app/layout.tsx",
-        lineNumber: 20,
-        columnNumber: 5
-    }, this);
-}
+const e = new Error("Could not parse module '[project]/app/layout.tsx'\n\nExpected '</', got 'jsx text (\r\n\r\n    )'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";

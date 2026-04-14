@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/product-reviews/page.tsx"],"sourcesContent":["import {Suspense} from \"react\";\r\n\r\nimport {Product} from \"../components/product\";\r\nimport {Reviews} from \"../components/reviews\";\r\n\r\nexport default function ProductReviewsPage(){\r\n    return (\r\n        <div>\r\n        <h1>Product Reviews</h1>\r\n        <Suspense>\r\n\r\n\r\n        </Suspense>\r\n        </div>\r\n    );\r\n}\r\n\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAKe,SAAS;IACpB,qBACI,8OAAC;;0BACD,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,iNAAQ;;;;;;;;;;;AAMjB","debugId":null}}]
+}

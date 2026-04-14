@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/utils/server-utils.ts"],"sourcesContent":["import \"server-only\";\r\n\r\nexport const serverSideFunction  =()=>{\r\n    console.log(\r\n        \"Using multiple libraries\",\r\n        \"Using environment variables\",\r\n        \"Interacting with database\",\r\n        \"Processing confidential information\"\r\n    );\r\n    \r\n    \r\n    \r\n    \r\n    return \"server result\";\r\n};"],"names":[],"mappings":";;;;;AAEO,MAAM,qBAAqB;IAC9B,QAAQ,GAAG,CACP,4BACA,+BACA,6BACA;IAMJ,OAAO;AACX","debugId":null}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/client-route/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { serverSideFunction } from \"@/utils/server-utils\";\r\n\r\n\r\n\r\nexport default function ClientRoutePage(){\r\n    const result = serverSideFunction();\r\n    return <h1> Client Route Page {result}</h1>;\r\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAMe,SAAS;IACpB,MAAM,SAAS,IAAA,iJAAkB;IACjC,qBAAO,6LAAC;;YAAG;YAAoB;;;;;;;AACnC;KAHwB","debugId":null}}]
+}

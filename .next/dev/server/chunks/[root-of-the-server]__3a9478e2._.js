@@ -45,19 +45,26 @@ module.exports = mod;
 "use strict";
 
 __turbopack_context__.s([
-    "config",
-    ()=>config,
-    "middleware",
-    ()=>middleware
+    "proxy",
+    ()=>proxy
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/server.js [middleware] (ecmascript)");
 ;
-function middleware(request) {
-    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/", request.url));
-}
-const config = {
-    matcher: ""
-};
+function proxy(request) {
+    //return NextResponse.redirect(new URL("/", request.url));
+    // if (request.nextUrl.pathname ==='/profile'){
+    //     return NextResponse.redirect(new URL("routeHandlers/hello", request.nextUrl));
+    // }
+    const response = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].next();
+    const themePreference = request.cookies.get("theme");
+    if (!themePreference) {
+        response.cookies.set("theme", "dark");
+    }
+    response.headers.set("custom-header", "custom-value");
+    return response;
+} // export const config = {
+ //     matcher: ["/profile/:path*"],
+ // };
 }),
 ];
 

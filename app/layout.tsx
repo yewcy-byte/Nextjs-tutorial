@@ -1,7 +1,10 @@
 
 import {Metadata} from "next";
 
+
 import {ErrorWrapper} from "./error-wrapper";
+
+import { ThemeProvider } from "./renderDemo/components/theme-provider";
 
 import React from 'react';
 
@@ -15,14 +18,16 @@ title:{
 }
 };
 
+
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-     <body>
-      <header style = {{backgroundColor:"lightblue", padding:"1rem", alignItems:"center", justifyContent:"center", display:"flex"}}>
-        <p style= {{backgroundColor:"blue", borderRadius: "20px" , color:"white", padding:"10px", width:"50px", boxShadow: "0 2px 8px rgba(0, 0, 0, 0.5)" , cursor:"pointer"}}>Header</p>
-      </header>
-      
+      <ThemeProvider>
+        <body>
+          <header style = {{backgroundColor:"lightblue", padding:"1rem", alignItems:"center", justifyContent:"center", display:"flex"}}>
+            <p style= {{backgroundColor:"blue", borderRadius: "20px" , color:"white", padding:"10px", width:"50px", boxShadow: "0 2px 8px rgba(0, 0, 0, 0.5)" , cursor:"pointer"}}>Header</p>
+          </header>
+
       <ErrorWrapper> {children}</ErrorWrapper>
       
       
@@ -33,6 +38,7 @@ export default function MarketingLayout({ children }: { children: React.ReactNod
 </footer>
 
 </body>
+</ThemeProvider>
 
     </html>
   );

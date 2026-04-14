@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/blog/second/page.tsx"],"sourcesContent":["export  default function Secondblog(){\r\n    return <h1>My Second Blog</h1>;\r\n}"],"names":[],"mappings":"+WAAgB,SAAS,IACrB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,kBACf"}

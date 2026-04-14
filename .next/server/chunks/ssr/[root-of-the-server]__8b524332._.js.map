@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/(marketing)/customers/page.tsx"],"sourcesContent":["export default function customer(){\r\n    return <h1>Customer Page</h1>\r\n}"],"names":[],"mappings":"+WAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,iBACf"}

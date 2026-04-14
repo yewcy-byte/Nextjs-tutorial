@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/profile/page.tsx"],"sourcesContent":["export  default function Profile(){\r\n    return <h1>My profile</h1>;\r\n}"],"names":[],"mappings":"oVAAgB,SAAS,IACrB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,cACf"}

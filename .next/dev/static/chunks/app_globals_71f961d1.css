@@ -621,6 +621,15 @@
   }
 }
 
+.image-slider-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.image-slider-container .slick-prev:before, .image-slider-container .slick-next:before {
+  color: #000;
+}
+
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;

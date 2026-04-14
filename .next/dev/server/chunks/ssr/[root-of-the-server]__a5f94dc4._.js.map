@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/generateStaticParams/Products/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\n\r\nexport default function ProductPage(){\r\n    return (\r\n        <>\r\n        <h1>Featured Products</h1>\r\n        <Link href=\"/products/1\">Product 1</Link>\r\n        <br/>\r\n        <Link href=\"/products/2\">Product 2</Link>\r\n        <br/>\r\n        <Link href=\"/products/3\">Product 3</Link>\r\n        </>\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACpB,qBACI;;0BACA,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,0LAAI;gBAAC,MAAK;0BAAc;;;;;;0BACzB,8OAAC;;;;;0BACD,8OAAC,0LAAI;gBAAC,MAAK;0BAAc;;;;;;0BACzB,8OAAC;;;;;0BACD,8OAAC,0LAAI;gBAAC,MAAK;0BAAc;;;;;;;;AAGjC","debugId":null}}]
+}

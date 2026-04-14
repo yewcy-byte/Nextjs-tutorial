@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/about/page.tsx"],"sourcesContent":["\r\nexport default function AboutPage(){\r\n    console.log(\"About server component\");\r\n    return <h1> About Page </h1>;\r\n}"],"names":[],"mappings":";;;;;;AACe,SAAS;IACpB,QAAQ,GAAG,CAAC;IACZ,qBAAO,8OAAC;kBAAG;;;;;;AACf","debugId":null}}]
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/routeHandlers/profile/page.tsx"],"sourcesContent":["export default function ProfilePage(){\r\n    return <div>Profile Page</div>;\r\n}"],"names":[],"mappings":"oVAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,gBAChB"}

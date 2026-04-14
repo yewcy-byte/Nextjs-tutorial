@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/complex-dashboard/@revenue/page.tsx"],"sourcesContent":["import { Card } from \"@/components/Card\";\r\n\r\nexport default function RevenueMetrics() {\r\n  return <Card>Revenue Metrics</Card>;\r\n}"],"names":[],"mappings":"sDAAA,EAAA,EAAA,CAAA,CAAA,OAEe,SAAS,IACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,EAAA,IAAI,CAAA,UAAC,mBACf"}

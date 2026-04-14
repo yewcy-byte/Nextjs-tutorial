@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},94367,a=>{a.n(a.i(16893))},70864,a=>{a.n(a.i(33290))},2894,a=>{a.n(a.i(66188))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},50371,a=>{a.n(a.i(30125))},99381,a=>{a.n(a.i(31243))},38300,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)("h1",{children:"Product Review"}),(0,b.jsx)("h2",{children:"Review 1"}),(0,b.jsx)("h2",{children:"Review 2"}),(0,b.jsx)("h2",{children:"Review 3"}),(0,b.jsx)("a",{href:"http://localhost:3000/product/1/reviews/1",children:"Link Boy"})]})}])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__7b6b6070._.js.map

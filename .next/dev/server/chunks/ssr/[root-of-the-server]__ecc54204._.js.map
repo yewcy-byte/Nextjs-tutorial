@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/utils/server-utils.ts"],"sourcesContent":["export const serverSideFunction  =()=>{\r\n    console.log(\r\n        \"Using multiple libraries\",\r\n        \"Using environment variables\",\r\n        \"Interacting with database\",\r\n        \"Processing confidential information\"\r\n    );\r\n    \r\n    \r\n    \r\n    \r\n    return \"server result\";\r\n};"],"names":[],"mappings":";;;;AAAO,MAAM,qBAAqB;IAC9B,QAAQ,GAAG,CACP,4BACA,+BACA,6BACA;IAMJ,OAAO;AACX","debugId":null}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/server-route/page.tsx"],"sourcesContent":["import { serverSideFunction } from \"@/utils/server-utils\";\r\n\r\n\r\nexport default function ServerRoutePage(){\r\n    const result = serverSideFunction();\r\n    return <h1>Server Route Page {result}</h1>;\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACpB,MAAM,SAAS,IAAA,8IAAkB;IACjC,qBAAO,8OAAC;;YAAG;YAAmB;;;;;;;AAClC","debugId":null}}]
+}

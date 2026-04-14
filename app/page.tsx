@@ -17,6 +17,9 @@ export default function Home(){
 
         <Link href="/articles/breaking-news-123?lang=fr">Read in French</Link>
 
+        <Link href = "/renderDemo/dashboard">Dashboard</Link>
+
+        <Link href = "/renderDemo/about">About</Link>
 
         </>
     ) ;

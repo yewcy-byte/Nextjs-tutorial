@@ -35,17 +35,10 @@ const mod = __turbopack_context__.x("node:async_hooks", () => require("node:asyn
 
 module.exports = mod;
 }),
-"[project]/proxy.ts [middleware] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/proxy.ts [middleware] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "middleware",
-    ()=>middleware
-]);
-function middleware(request) {
-    return;
-}
+const e = new Error("Could not parse module '[project]/proxy.ts'\n\n'const' declarations must be initialized");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 ];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__c22f5984._.js.map

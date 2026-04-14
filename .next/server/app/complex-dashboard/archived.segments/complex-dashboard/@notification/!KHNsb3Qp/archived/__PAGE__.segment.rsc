@@ -1,0 +1,3 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/c1d56b18653a523a.js","/_next/static/chunks/3642df735ce18ac8.js"],""]
+0:{"buildId":"m8DFtcBbRH-qOf1tSs7ao","rsc":["$","$1","c",{"children":[["$","div",null,{"style":{"padding":"100px","margin":"10px","boxShadow":"0 4px 8px 0 rgba(0, 0, 0, 0.2)","border":"1px solid #ddd","display":"flex","justifyContent":"center","alignItems":"center"},"children":[["$","div",null,{"children":"Notification Archived"}],["$","div",null,{"children":["$","$L2",null,{"href":"/complex-dashboard","children":"  Default"}]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/3642df735ce18ac8.js","async":true}]],null]}],"loading":null,"isPartial":false}

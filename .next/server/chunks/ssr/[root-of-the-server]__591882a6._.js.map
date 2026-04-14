@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/blog/first/page.tsx"],"sourcesContent":["export  default function FirstBlog(){\r\n    return <h1>My First Blog</h1>;\r\n}"],"names":[],"mappings":"+WAAgB,SAAS,IACrB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,iBACf"}

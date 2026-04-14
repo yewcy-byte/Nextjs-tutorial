@@ -1,0 +1,3 @@
+module.exports=[29424,a=>{"use strict";var b=a.i(87924),c=a.i(72131);function d(){console.log("Dashboard client component");let[a,d]=(0,c.useState)("");return(0,b.jsxs)("div",{children:[(0,b.jsx)("h1",{children:"Dashboard"}),(0,b.jsx)("input",{value:a,onChange:a=>d(a.target.value)}),(0,b.jsxs)("p",{children:["Hello, ",a,"!"]})]})}a.s(["default",()=>d])}];
+
+//# sourceMappingURL=app_renderDemo_dashboard_page_tsx_3ba2722e._.js.map

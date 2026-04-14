@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/routeHandlers/layout,_N_T_/routeHandlers/profile/layout,_N_T_/routeHandlers/profile/page,_N_T_/routeHandlers/profile"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/routeHandlers/profile/__PAGE__",
+    "/routeHandlers/profile",
+    "/routeHandlers",
+    "/_index"
+  ]
+}
