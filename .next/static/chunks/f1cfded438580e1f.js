@@ -1,0 +1,2 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,16015,(e,o,t)=>{},19870,e=>{"use strict";var o=e.i(43476),t=e.i(60158);function l(){let e=(0,t.useTheme)(),l=(console.log(`use window object,
+        use local storage`),"client result");return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)("h1",{style:{color:e.colors.secondary},children:"Client Route"}),(0,o.jsx)("p",{children:l})]})}e.i(16015),e.s(["default",()=>l],19870)}]);

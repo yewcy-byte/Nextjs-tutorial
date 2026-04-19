@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,46752,e=>{"use strict";var t=e.i(43476),r=e.i(71645);e.s(["NavSearch",0,()=>{let[e,c]=(0,r.useState)("");return console.log("NavSearch rendered"),(0,t.jsx)("div",{children:"Search functionality"})}])}]);

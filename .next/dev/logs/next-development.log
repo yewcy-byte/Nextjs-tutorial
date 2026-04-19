@@ -1,12 +1,1340 @@
-[00:00:03.456] Server  LOG      ✓ Ready in 2.4s
-[00:00:11.242] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:00.328] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/renderDemo/components/theme-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:11:00.598] Server  ERROR    ⨯ ReferenceError: ThemeContext is not defined
-[00:11:00.629] Server  LOG      ✓ Compiled in 137ms
-[00:11:01.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:01.760] Browser ERROR   uncaughtError: ReferenceError: ThemeContext is not defined
-[00:11:02.497] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:11:02.498] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/renderDemo/components/theme-provider.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:11:02.499] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:11:02.512] Server  LOG      ✓ Compiled in 126ms
-[00:11:03.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.010] Server  LOG      ✓ Ready in 2.1s
+[00:00:41.734] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/generated/prisma/internal/prismaNamespace.ts:18:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  16 |  */
+  17 |
+> 18 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import type * as Prisma from "../models"
+  20 | import { type PrismaClient } from "./class"
+  21 |
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/prismaNamespace.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:44.072] Browser ERROR   uncaughtError: Error: ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  16 |  */
+  17 |
+> 18 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import type * as Prisma from "../models"
+  20 | import { type PrismaClient } from "./class"
+  21 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/prismaNamespace.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.512] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.512] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  16 |  */
+  17 |
+> 18 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import type * as Prisma from "../models"
+  20 | import { type PrismaClient } from "./class"
+  21 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/prismaNamespace.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.513] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.513] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  16 |  */
+  17 |
+> 18 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import type * as Prisma from "../models"
+  20 | import { type PrismaClient } from "./class"
+  21 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/prismaNamespace.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:39.676] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:39.679] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  16 |  */
+  17 |
+> 18 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import type * as Prisma from "../models"
+  20 | import { type PrismaClient } from "./class"
+  21 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/prismaNamespace.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  12 |  */
+  13 |
+> 14 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | import type * as Prisma from "./prismaNamespace"
+  16 |
+  17 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
+Module not found: Can't resolve '@prisma/client/runtime/client'
+  16 |  */
+  17 |
+> 18 | import * as runtime from "@prisma/client/runtime/client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | import type * as Prisma from "../models"
+  20 | import { type PrismaClient } from "./class"
+  21 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/prismaNamespace.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:48.981] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:48.981] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:54.534] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:54.534] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:06.911] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:06.911] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:11.864] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:11.864] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:14.993] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:14.993] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:19.471] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:19.471] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:23.419] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:23.419] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:24.983] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:24.983] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:25.618] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:25.623] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:33.194] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:33.194] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:39.238] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
+  46 |
+  47 | config.compilerWasm = {
+> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
+     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:39.238] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
+Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
+  49 |
+  50 |   getQueryCompilerWasmModule: async () => {
+> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  52 |     return await decodeBase64AsWasm(wasm)
+  53 |   },
+  54 |
+
+Import trace:
+  Server Component:
+    ./app/generated/prisma/internal/class.ts
+    ./app/generated/prisma/client.ts
+    ./app/dataFetching/prisma-db.ts
+    ./app/dataFetching/products-db/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:42.680] Server  LOG      ✓ Compiled in 40ms
+[00:04:44.083] Server  ERROR    ⨯ PrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
+
+```
+new PrismaClient({
+  ...
+})
+```
+
+or
+
+```
+constructor() {
+  super({ ... });
+}
+```
+          
+[00:04:44.635] Server  ERROR    ⨯ PrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
+
+```
+new PrismaClient({
+  ...
+})
+```
+
+or
+
+```
+constructor() {
+  super({ ... });
+}
+```
+          
+[00:04:47.219] Browser ERROR   uncaughtError: PrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
+
+```
+new PrismaClient({
+  ...
+})
+```
+
+or
+
+```
+constructor() {
+  super({ ... });
+}
+```
+          
+[00:07:51.622] Server  LOG      ✓ Compiled in 187ms
+[00:07:52.712] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
+[00:07:53.310] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
+[00:07:55.983] Browser ERROR   uncaughtError: PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
+[00:09:54.276] Server  LOG      ✓ Compiled in 188ms
+[00:09:56.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

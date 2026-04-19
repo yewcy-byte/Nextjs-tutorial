@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/dataFetching/users-server/error.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport {useEffect} from \"react\";\r\n\r\nexport default function ErrorPage({error}: {error: Error}){\r\n    useEffect(() => {\r\n        console.error(error);\r\n    }, [error]);\r\n\r\n    return (\r\n        <div className=\"flex items-center justify-center h-screen\">\r\n            <div className=\"text-center\">\r\n                <h1 className=\"text-2xl font-bold text-red-500\">Error</h1>\r\n                <p className=\"text-gray-700\">{error.message}</p>\r\n            </div>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;AAEA;;;AAFA;;AAIe,SAAS,UAAU,EAAC,KAAK,EAAiB;;IACrD,IAAA,0KAAS;+BAAC;YACN,QAAQ,KAAK,CAAC;QAClB;8BAAG;QAAC;KAAM;IAEV,qBACI,6LAAC;QAAI,WAAU;kBACX,cAAA,6LAAC;YAAI,WAAU;;8BACX,6LAAC;oBAAG,WAAU;8BAAkC;;;;;;8BAChD,6LAAC;oBAAE,WAAU;8BAAiB,MAAM,OAAO;;;;;;;;;;;;;;;;;AAI3D;GAbwB;KAAA","debugId":null}}]
+}

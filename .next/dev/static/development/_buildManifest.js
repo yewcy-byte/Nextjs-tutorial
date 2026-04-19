@@ -1,7 +1,175 @@
 self.__BUILD_MANIFEST = {
+  "/_error": [
+    "static/chunks/pages/_error.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1(?:/.*)?"
+          }
+        ],
+        "source": "/f1/f2",
+        "destination": "/f1/(.)f2"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1(?:/.*)?"
+          }
+        ],
+        "source": "/f3",
+        "destination": "/f1/(..)f3"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1/f2(?:/.*)?"
+          }
+        ],
+        "source": "/f4",
+        "destination": "/f1/f2/(..)(..)f4"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1/f2/inner\\-f2(?:/.*)?"
+          }
+        ],
+        "source": "/f5",
+        "destination": "/f1/f2/inner-f2/(...)f5"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/photo\\-feed(?:/.*)?"
+          }
+        ],
+        "source": "/photo-feed/:nxtIid",
+        "destination": "/photo-feed/(.):nxtIid"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1(?:/.*)?"
+          }
+        ],
+        "source": "/f1/f2",
+        "destination": "/f1/(.)f2"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1(?:/.*)?"
+          }
+        ],
+        "source": "/f3",
+        "destination": "/f1/(..)f3"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1/f2(?:/.*)?"
+          }
+        ],
+        "source": "/f4",
+        "destination": "/f1/f2/(..)(..)f4"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1/f2/inner\\-f2(?:/.*)?"
+          }
+        ],
+        "source": "/f5",
+        "destination": "/f1/f2/inner-f2/(...)f5"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/photo\\-feed(?:/.*)?"
+          }
+        ],
+        "source": "/photo-feed/:nxtIid",
+        "destination": "/photo-feed/(.):nxtIid"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1(?:/.*)?"
+          }
+        ],
+        "source": "/f1/f2",
+        "destination": "/f1/(.)f2"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1(?:/.*)?"
+          }
+        ],
+        "source": "/f3",
+        "destination": "/f1/(..)f3"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1/f2(?:/.*)?"
+          }
+        ],
+        "source": "/f4",
+        "destination": "/f1/f2/(..)(..)f4"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/f1/f2/inner\\-f2(?:/.*)?"
+          }
+        ],
+        "source": "/f5",
+        "destination": "/f1/f2/inner-f2/(...)f5"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "/photo\\-feed(?:/.*)?"
+          }
+        ],
+        "source": "/photo-feed/:nxtIid",
+        "destination": "/photo-feed/(.):nxtIid"
+      },
       {
         "has": [
           {
