@@ -227,10 +227,28 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../app/dataFetching/products-db-create/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/dataFetching/products-db-create">> = Specific
+  const handler = {} as typeof import("../../../app/dataFetching/products-db-create/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/dataFetching/products-db/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/dataFetching/products-db">> = Specific
   const handler = {} as typeof import("../../../app/dataFetching/products-db/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/dataFetching/react-form/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/dataFetching/react-form">> = Specific
+  const handler = {} as typeof import("../../../app/dataFetching/react-form/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
@@ -555,6 +573,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/comments">> = Specific
   const handler = {} as typeof import("../../../app/comments/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/dataFetching/react-form/api/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/dataFetching/react-form/api">> = Specific
+  const handler = {} as typeof import("../../../app/dataFetching/react-form/api/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

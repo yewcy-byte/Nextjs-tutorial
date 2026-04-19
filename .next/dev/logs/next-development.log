@@ -1,1340 +1,1630 @@
-[00:00:03.010] Server  LOG      ✓ Ready in 2.1s
-[00:00:41.734] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
+[00:00:04.812] Server  LOG      ✓ Ready in 3.8s
+[00:00:11.921] Server  LOG      ○ Compiling / ...
+[00:00:15.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.471] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:39.753] Server  LOG      ✓ Compiled in 145ms
+[00:07:42.186] Server  LOG      ✓ Compiled in 143ms
+[00:07:44.636] Server  LOG      ✓ Compiled in 137ms
+[00:07:49.208] Server  LOG      ✓ Compiled in 145ms
+[00:09:45.155] Server  LOG      ✓ Compiled in 198ms
+[00:09:46.217] Browser ERROR   ./app/dataFetching/react-form/page.tsx:70:14
+Parsing ecmascript source code failed
+  68 |         disabled={loading}
+  69 |       >
+> 70 |       </form>
+     |              ^
+> 71 |     </div>
+     | ^^^^^
+  72 |   );
+  73 | }
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./app/dataFetching/react-form/page.tsx [Client Component Browser]
+    ./app/dataFetching/react-form/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dataFetching/react-form/page.tsx [Client Component SSR]
+    ./app/dataFetching/react-form/page.tsx [Server Component]
+[00:10:21.661] Server  LOG      ✓ Compiled in 159ms
+[00:11:22.573] Server  LOG      ✓ Compiled in 182ms
+[00:11:37.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:01.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:03.124] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:14.318] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:36.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:47.037] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:08.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:17.338] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:03.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:51.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:36.597] Server  LOG      ✓ Compiled in 140ms
+[00:47:37.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:08.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:34.930] Server  LOG      ✓ Compiled in 168ms
+[01:06:36.016] Server  LOG      ✓ Compiled in 149ms
+[01:08:18.474] Server  LOG      ✓ Compiled in 151ms
+[01:08:59.483] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 |
+   6 |
+>  7 | export default function AddProductPage() {
+     | ^^^^^^
+   8 |
+   9 | async function createProduct(formData: FormData) {
+  10 |
+
+Expected 'from', got 'export'
+[01:09:00.832] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 |
+   6 |
+>  7 | export default function AddProductPage() {
+     | ^^^^^^
+   8 |
+   9 | async function createProduct(formData: FormData) {
+  10 |
+
+Expected 'from', got 'export'
+[01:09:20.115] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 |
+   6 |
+>  7 | export default function AddProductPage() {
+     | ^^^^^^
+   8 |
+   9 | async function createProduct(formData: FormData) {
+  10 |
+
+Expected 'from', got 'export'
+[01:09:22.401] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 |
+   6 |
+>  7 | export default function AddProductPage() {
+     | ^^^^^^
+   8 |
+   9 | async function createProduct(formData: FormData) {
+  10 |
+
+Unexpected token `export`. Expected a string literal
+[01:09:23.920] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 |
+   6 |
+>  7 | export default function AddProductPage() {
+     | ^^^^^^
+   8 |
+   9 | async function createProduct(formData: FormData) {
+  10 |
+
+Unexpected token `export`. Expected a string literal
+[01:09:28.096] Server  LOG      ✓ Compiled in 139ms
+[01:09:28.928] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 |
+   6 |
+>  7 | export default function AddProductPage() {
+     | ^^^^^^
+   8 |
+   9 | async function createProduct(formData: FormData) {
+  10 |
+
+Unexpected token `export`. Expected a string literal
+[01:09:59.427] Server  LOG      ✓ Compiled in 139ms
+[01:10:01.228] Server  LOG      ✓ Compiled in 148ms
+[01:10:02.800] Server  LOG      ✓ Compiled in 135ms
+[01:10:06.667] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:7
+Parsing ecmascript source code failed
+  47 |         <
+  48 |
+> 49 |       </form>
+     |       ^
+  50 |     </div>
+  51 |   );
+  52 |
+
+Expression expected
+[01:10:06.667] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:8
+Parsing ecmascript source code failed
+  47 |         <
+  48 |
+> 49 |       </form>
+     |        ^^^^^^
+  50 |     </div>
+  51 |   );
+  52 |
+
+Unterminated regexp literal
+[01:10:10.589] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:7
+Parsing ecmascript source code failed
+  47 |         <Submi
+  48 |
+> 49 |       </form>
+     |       ^
+  50 |     </div>
+  51 |   );
+  52 |
+
+Expression expected
+[01:10:10.589] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:8
+Parsing ecmascript source code failed
+  47 |         <Submi
+  48 |
+> 49 |       </form>
+     |        ^^^^^^
+  50 |     </div>
+  51 |   );
+  52 |
+
+Unterminated regexp literal
+[01:10:11.669] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:7
+Parsing ecmascript source code failed
+  47 |         <Submit
+  48 |
+> 49 |       </form>
+     |       ^
+  50 |     </div>
+  51 |   );
+  52 |
+
+Expression expected
+[01:10:11.669] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:8
+Parsing ecmascript source code failed
+  47 |         <Submit
+  48 |
+> 49 |       </form>
+     |        ^^^^^^
+  50 |     </div>
+  51 |   );
+  52 |
+
+Unterminated regexp literal
+[01:10:13.281] Server  LOG      ✓ Compiled in 151ms
+[01:10:18.939] Server  LOG      ✓ Compiled in 155ms
+[01:10:49.828] Server  LOG      ✓ Compiled in 134ms
+[01:10:53.869] Server  LOG      ✓ Compiled in 164ms
+[01:10:58.684] Server  LOG      ✓ Compiled in 163ms
+[01:11:11.436] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:15.445] Server  LOG     prisma:error "\nInvalid `prisma.product.create()` invocation in\nC:\\Users\\User\\Downloads\\hello-world\\Nextjs-tutorial\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__d68aa4da._.js:325:27\n\n  322 }\n  323 async function addProduct(title, price, description) {\n  324     await new Promise((resolve)=>setTimeout(resolve, 1500));\n→ 325     return prisma.product.create({\n            data: {\n              title: \"\",\n              description: \"\",\n          +   price: Int\n            }\n          })\n\nArgument `price` is missing."
+[01:11:16.193] Server  ERROR    ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.create()` invocation in
+C:\Users\User\Downloads\hello-world\Nextjs-tutorial\.next\dev\server\chunks\ssr\[root-of-the-server]__d68aa4da._.js:325:27
+
+  322 }
+  323 async function addProduct(title, price, description) {
+  324     await new Promise((resolve)=>setTimeout(resolve, 1500));
+→ 325     return prisma.product.create({
+            data: {
+              title: "",
+              description: "",
+          +   price: Int
+            }
+          })
+
+Argument `price` is missing.
+[01:11:16.390] Browser ERROR   uncaughtError: PrismaClientValidationError: 
+Invalid `prisma.product.create()` invocation in
+C:\Users\User\Downloads\hello-world\Nextjs-tutorial\.next\dev\server\chunks\ssr\[root-of-the-server]__d68aa4da._.js:325:27
+
+  322 }
+  323 async function addProduct(title, price, description) {
+  324     await new Promise((resolve)=>setTimeout(resolve, 1500));
+→ 325     return prisma.product.create({
+            data: {
+              title: "",
+              description: "",
+          +   price: Int
+            }
+          })
+
+Argument `price` is missing.
+[01:11:21.583] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:06.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:33:08.715] Server  LOG      ✓ Compiled in 158ms
+[05:33:13.978] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 |
+   8 |
+>  9 | export default function AddProductPage() {
+     | ^^^^^^
+  10 |
+  11 | async function createProduct(formData: FormData) {
+  12 |
+
+Unexpected token `export`. Expected =
+[05:33:15.405] Server  LOG      ✓ Compiled in 168ms
+[05:33:27.769] Server  LOG      ✓ Compiled in 133ms
+[05:33:45.941] Server  LOG      ✓ Compiled in 151ms
+[05:33:51.467] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:15:1
+Parsing ecmascript source code failed
+  13 | type FormState
+  14 |
+> 15 | export default function AddProductPage() {
+     | ^^^^^^
   16 |
-  17 |
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-
-./app/generated/prisma/internal/prismaNamespace.ts:18:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  16 |  */
-  17 |
-> 18 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 | import type * as Prisma from "../models"
-  20 | import { type PrismaClient } from "./class"
-  21 |
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/prismaNamespace.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-
-./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-
-./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:44.072] Browser ERROR   uncaughtError: Error: ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
-  16 |
-  17 |
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
-  16 |
-  17 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  16 |  */
-  17 |
-> 18 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 | import type * as Prisma from "../models"
-  20 | import { type PrismaClient } from "./class"
-  21 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/prismaNamespace.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.293] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.512] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
-  16 |
-  17 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.512] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  16 |  */
-  17 |
-> 18 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 | import type * as Prisma from "../models"
-  20 | import { type PrismaClient } from "./class"
-  21 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/prismaNamespace.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.513] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:44.513] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
-  16 |
-  17 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  16 |  */
-  17 |
-> 18 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 | import type * as Prisma from "../models"
-  20 | import { type PrismaClient } from "./class"
-  21 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/prismaNamespace.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:21.146] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:39.676] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:03:39.679] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
-  16 |
-  17 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  16 |  */
-  17 |
-> 18 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 | import type * as Prisma from "../models"
-  20 | import { type PrismaClient } from "./class"
-  21 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/prismaNamespace.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:14:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  12 |  */
-  13 |
-> 14 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  15 | import type * as Prisma from "./prismaNamespace"
-  16 |
-  17 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/prismaNamespace.ts:18:1
-Module not found: Can't resolve '@prisma/client/runtime/client'
-  16 |  */
-  17 |
-> 18 | import * as runtime from "@prisma/client/runtime/client"
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  19 | import type * as Prisma from "../models"
-  20 | import { type PrismaClient } from "./class"
-  21 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/prismaNamespace.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:40.896] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:48.981] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:48.981] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:54.534] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:03:54.534] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:00.598] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:06.911] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:06.911] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:11.864] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:11.864] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:14.993] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:14.993] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:19.471] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:19.471] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:23.419] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:23.419] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:24.983] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:24.983] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:25.618] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:25.623] Server  ERROR    ⨯ ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:28.577] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:33.194] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:33.194] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:39.238] Browser ERROR   ./app/generated/prisma/internal/class.ts:48:33
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs'
-  46 |
-  47 | config.compilerWasm = {
-> 48 |   getRuntime: async () => await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.mjs"),
-     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-  51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:39.238] Browser ERROR   ./app/generated/prisma/internal/class.ts:51:28
-Module not found: Can't resolve '@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs'
-  49 |
-  50 |   getQueryCompilerWasmModule: async () => {
-> 51 |     const { wasm } = await import("@prisma/client/runtime/query_compiler_fast_bg.sqlite.wasm-base64.mjs")
-     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  52 |     return await decodeBase64AsWasm(wasm)
-  53 |   },
-  54 |
-
-Import trace:
-  Server Component:
-    ./app/generated/prisma/internal/class.ts
-    ./app/generated/prisma/client.ts
-    ./app/dataFetching/prisma-db.ts
-    ./app/dataFetching/products-db/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:04:42.680] Server  LOG      ✓ Compiled in 40ms
-[00:04:44.083] Server  ERROR    ⨯ PrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
-
-```
-new PrismaClient({
-  ...
-})
-```
-
-or
-
-```
-constructor() {
-  super({ ... });
-}
-```
-          
-[00:04:44.635] Server  ERROR    ⨯ PrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
-
-```
-new PrismaClient({
-  ...
-})
-```
-
-or
-
-```
-constructor() {
-  super({ ... });
-}
-```
-          
-[00:04:47.219] Browser ERROR   uncaughtError: PrismaClientInitializationError: `PrismaClient` needs to be constructed with a non-empty, valid `PrismaClientOptions`:
-
-```
-new PrismaClient({
-  ...
-})
-```
-
-or
-
-```
-constructor() {
-  super({ ... });
-}
-```
-          
-[00:07:51.622] Server  LOG      ✓ Compiled in 187ms
-[00:07:52.712] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
-Read more at https://pris.ly/d/client-constructor
-[00:07:53.310] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
-Read more at https://pris.ly/d/client-constructor
-[00:07:55.983] Browser ERROR   uncaughtError: PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
-Read more at https://pris.ly/d/client-constructor
-[00:09:54.276] Server  LOG      ✓ Compiled in 188ms
-[00:09:56.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+  17 | async function createProduct(formData: FormData) {
+  18 |
+
+Unexpected token `export`. Expected =
+[05:33:52.594] Server  LOG      ✓ Compiled in 145ms
+[05:34:26.651] Server  LOG      ✓ Compiled in 137ms
+[05:34:29.163] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:21:1
+Parsing ecmascript source code failed
+  19 |     const
+  20 |
+> 21 | async function createProduct(formData: FormData) {
+     | ^^^^^
+  22 |
+  23 |     "use server";
+  24 |
+
+'const' declarations must be initialized
+[05:34:29.163] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:21:7
+Parsing ecmascript source code failed
+  19 |     const
+  20 |
+> 21 | async function createProduct(formData: FormData) {
+     |       ^^^^^^^^
+  22 |
+  23 |     "use server";
+  24 |
+
+Expected a semicolon
+[05:34:29.163] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:29:1
+Parsing ecmascript source code failed
+  27 | const description = formData.get("description") as string;
+  28 |
+> 29 | await addProduct(title, parseInt(price), description);
+     | ^^^^^
+  30 | redirect("/dataFetching/products-db");
+  31 |
+  32 | }
+
+await isn't allowed in non-async function
+[05:34:32.132] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:19:11
+Parsing ecmascript source code failed
+  17 | export default function AddProductPage() {
+  18 |
+> 19 |     const initial
+     |           ^^^^^^^
+  20 |
+  21 | async function createProduct(formData: FormData) {
+  22 |
+
+'const' declarations must be initialized
+[05:34:33.423] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:21:16
+Parsing ecmascript source code failed
+  19 |     const initialState: FormState = {
+  20 |
+> 21 | async function createProduct(formData: FormData) {
+     |                ^^^^^^^^^^^^^
+  22 |
+  23 |     "use server";
+  24 |
+
+Expected '(', got 'createProduct'
+[05:34:35.466] Server  LOG      ✓ Compiled in 140ms
+[05:35:36.605] Server  LOG      ✓ Compiled in 158ms
+[05:35:38.552] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:35:40.233] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:36:00.409] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:36:05.112] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:36:48.650] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:36:53.659] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:35:7
+Parsing ecmascript source code failed
+  33 |
+  34 |
+> 35 | const error
+     |       ^^^^^
+  36 |
+  37 | await addProduct(title, parseInt(price), description);
+  38 | redirect("/dataFetching/products-db");
+
+'const' declarations must be initialized
+[05:36:55.986] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:35:7
+Parsing ecmascript source code failed
+  33 |
+  34 |
+> 35 | const errors
+     |       ^^^^^^
+  36 |
+  37 | await addProduct(title, parseInt(price), description);
+  38 | redirect("/dataFetching/products-db");
+
+'const' declarations must be initialized
+[05:36:57.284] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:35:7
+Parsing ecmascript source code failed
+  33 |
+  34 |
+> 35 | const errors: 
+     |       ^^^^^^^^
+> 36 |
+     | ^
+> 37 | await addProduct(title, parseInt(price), description);
+     | ^^^^^^
+  38 | redirect("/dataFetching/products-db");
+  39 |
+  40 | }
+
+'const' declarations must be initialized
+[05:36:57.284] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:37:7
+Parsing ecmascript source code failed
+  35 | const errors: 
+  36 |
+> 37 | await addProduct(title, parseInt(price), description);
+     |       ^^^^^^^^^^
+  38 | redirect("/dataFetching/products-db");
+  39 |
+  40 | }
+
+Expected a semicolon
+[05:36:59.919] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:10.836] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:16.489] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:39:1
+Parsing ecmascript source code failed
+  37 | if 
+  38 |
+> 39 | await addProduct(title, parseInt(price), description);
+     | ^^^^^
+  40 | redirect("/dataFetching/products-db");
+  41 |
+  42 | }
+
+Expected '(', got 'await'
+[05:37:17.869] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:37:5
+Parsing ecmascript source code failed
+  35 | const errors: Errors = {};
+  36 |
+> 37 | if ()
+     |     ^
+  38 |
+  39 | await addProduct(title, parseInt(price), description);
+  40 | redirect("/dataFetching/products-db");
+
+Expression expected
+[05:37:19.163] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:37:6
+Parsing ecmascript source code failed
+  35 | const errors: Errors = {};
+  36 |
+> 37 | if (!)
+     |      ^
+  38 |
+  39 | await addProduct(title, parseInt(price), description);
+  40 | redirect("/dataFetching/products-db");
+
+Expression expected
+[05:37:26.264] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:30.041] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:33.528] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:35.311] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:81:2
+Parsing ecmascript source code failed
+  79 |   );
+  80 |
+> 81 | }
+     |  ^
+
+Expected '}', got '<eof>'
+[05:37:36.594] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:41.700] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:43.853] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:37:52.131] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:49:1
+Parsing ecmascript source code failed
+  47 | if 
+  48 |
+> 49 | await addProduct(title, parseInt(price), description);
+     | ^^^^^
+  50 | redirect("/dataFetching/products-db");
+  51 |
+  52 | }
+
+Expected '(', got 'await'
+[05:37:55.088] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:38:09.338] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:38:14.057] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:38:17.267] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:39:28.970] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:39:31.292] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:39:32.347] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:39:36.581] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:39:40.587] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:39:47.930] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:40:09.105] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:24:8
+Parsing ecmascript source code failed
+  22 |     };
+  23 |
+> 24 | const  useActionState(createProduct,initialState);
+     |        ^^^^^^^^^^^^^^
+  25 |
+  26 | async function createProduct(formData: FormData) {
+  27 |
+
+'const' declarations must be initialized
+[05:40:09.105] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:24:22
+Parsing ecmascript source code failed
+  22 |     };
+  23 |
+> 24 | const  useActionState(createProduct,initialState);
+     |                      ^
+  25 |
+  26 | async function createProduct(formData: FormData) {
+  27 |
+
+Expected a semicolon
+[05:40:12.304] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:40:21.347] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:40:24.732] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:40:27.369] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:40:37.069] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:42:54.775] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:43:13.204] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:43:14.551] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:43:22.740] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:43:26.312] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:62:35
+Parsing ecmascript source code failed
+  60 |         <div>
+  61 |           <label htmlFor="name">Name:</label>
+> 62 |           {state.errors.title && (}
+     |                                   ^
+  63 |           <input
+  64 |             type="text"
+  65 |             name="title"
+
+Expected '</', got '}'
+[05:43:28.442] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:43:54.734] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:43:57.802] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:44:06.525] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[05:44:08.439] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:38:38.064] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:39:44.181] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:39:45.886] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:39:53.009] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:94:7
+Parsing ecmascript source code failed
+  92 |     {/} <Submit />
+  93 |
+> 94 |       </form>
+     |       ^
+  95 |     </div>
+  96 |   );
+  97 |
+
+Expression expected
+[08:39:53.009] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:94:8
+Parsing ecmascript source code failed
+  92 |     {/} <Submit />
+  93 |
+> 94 |       </form>
+     |        ^^^^^^
+  95 |     </div>
+  96 |   );
+  97 |
+
+Unterminated regexp literal
+[08:39:54.020] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:98:2
+Parsing ecmascript source code failed
+  96 |   );
+  97 | 
+> 98 | }
+     |  ^
+
+Unterminated block comment
+[08:39:57.666] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:39:59.123] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:40:00.608] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:40:02.113] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:40:03.764] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:40:05.884] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:94:7
+Parsing ecmascript source code failed
+  92 |     {/} <Submit />
+  93 |
+> 94 |       </form>
+     |       ^
+  95 |     </div>
+  96 |   );
+  97 |
+
+Expression expected
+[08:40:05.884] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:94:8
+Parsing ecmascript source code failed
+  92 |     {/} <Submit />
+  93 |
+> 94 |       </form>
+     |        ^^^^^^
+  95 |     </div>
+  96 |   );
+  97 |
+
+Unterminated regexp literal
+[08:40:07.094] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:98:2
+Parsing ecmascript source code failed
+  96 |   );
+  97 | 
+> 98 | }
+     |  ^
+
+Unterminated block comment
+[08:40:13.494] Server  LOG      ✓ Compiled in 356ms
+[08:40:14.125] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:40:16.412] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:40:20.416] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:43:27.111] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:43:36.379] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:44:37.776] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 | type Errors ={
+  8 |     title?: string;
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:44:50.044] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:45:00.890] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:45:08.225] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:45:11.026] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:45:14.079] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:45:54.897] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:46:05.982] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:10
+Ecmascript file had an error
+  3 | import { redirect } from "next/navigation";
+  4 | import {Submit} from "@/components/submit";
+> 5 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:53:05.441] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:53:09.072] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:53:28.547] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 |
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:54:06.181] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 |
+   8 |
+>  9 | export default function AddProductPage() {
+     | ^^^^^^
+  10 |
+  11 |     const initialState: FormState = {
+  12 |         errors: {},
+
+Expected 'from', got 'export'
+[08:54:10.746] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 |
+   8 |
+>  9 | export default function AddProductPage() {
+     | ^^^^^^
+  10 |
+  11 |     const initialState: FormState = {
+  12 |         errors: {},
+
+Expected 'from', got 'export'
+[08:54:12.255] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:9:1
+Parsing ecmascript source code failed
+   7 |
+   8 |
+>  9 | export default function AddProductPage() {
+     | ^^^^^^
+  10 |
+  11 |     const initialState: FormState = {
+  12 |         errors: {},
+
+Expected 'from', got 'export'
+[08:54:14.326] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:54:20.335] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:5:28
+Parsing ecmascript source code failed
+  3 | import {Submit} from "@/components/submit";
+  4 | import { useActionState } from "react";
+> 5 | import { FormState, create Product } from "../actions/products";
+    |                            ^^^^^^^
+  6 |
+  7 |
+  8 |
+
+Expected ',', got 'Product'
+[08:54:23.308] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:55:53.825] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:55:55.303] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:06.324] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:06.324] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:06.435] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:07.410] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:08.018] Browser ERROR   uncaughtError: Error: ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[08:56:08.118] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:08.225] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:10.866] Server  ERROR    ⨯ ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[08:56:11.502] Browser ERROR   uncaughtError: Error: ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[08:56:11.610] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:11.836] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:42.184] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:44.919] Server  ERROR    ⨯ ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[08:56:45.790] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:45.790] Browser ERROR   uncaughtError: Error: ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[08:56:45.790] Browser ERROR   ./app/dataFetching/products-db-create/page.tsx:4:10
+Ecmascript file had an error
+  2 |
+  3 | import {Submit} from "@/components/submit";
+> 4 | import { useActionState } from "react";
+    |          ^^^^^^^^^^^^^^
+  5 | import { FormState, createProduct } from "../actions/products";
+  6 |
+  7 |
+
+You're importing a component that needs `useActionState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[08:56:57.777] Server  LOG      ✓ Compiled in 175ms
+[08:56:58.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:17:03.721] Server  LOG      ✓ Compiled in 262ms
+[09:17:04.738] Browser ERROR   uncaughtError: ReferenceError: n is not defined
+[09:17:05.256] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[09:17:05.295] Server  LOG      ✓ Compiled in 200ms
+[09:17:06.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

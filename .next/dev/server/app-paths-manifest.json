@@ -1,3 +1,8 @@
 {
-  "/dataFetching/products-db/page": "app/dataFetching/products-db/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dataFetching/products-db-create/page": "app/dataFetching/products-db-create/page.js",
+  "/dataFetching/products-db/page": "app/dataFetching/products-db/page.js",
+  "/dataFetching/react-form/api/route": "app/dataFetching/react-form/api/route.js",
+  "/dataFetching/react-form/page": "app/dataFetching/react-form/page.js",
+  "/page": "app/page.js"
 }
