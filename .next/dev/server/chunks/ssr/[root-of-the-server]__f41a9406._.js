@@ -355,15 +355,21 @@ async function deleteProduct(id) {
 "[project]/app/dataFetching/actions/products.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"601f7e5618d746e9a519342f3d705d154089301280":"createProduct"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"408592f8b30cfeb622e1e6f20983be5814db1e5155":"removeProduct","601f7e5618d746e9a519342f3d705d154089301280":"createProduct","70be7e0d2c43132bb2c5591c2852d510c3541a78e2":"editProduct"},"",""] */ __turbopack_context__.s([
     "createProduct",
-    ()=>createProduct
+    ()=>createProduct,
+    "editProduct",
+    ()=>editProduct,
+    "removeProduct",
+    ()=>removeProduct
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/server-reference.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dataFetching$2f$prisma$2d$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/dataFetching/prisma-db.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/cache.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$api$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/navigation.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -389,11 +395,41 @@ async function createProduct(prevState, formData) {
     await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dataFetching$2f$prisma$2d$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["addProduct"])(title, parseInt(price), description);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])("/dataFetching/products-db");
 }
+async function editProduct(id, prevState, formData) {
+    const title = formData.get("title");
+    const price = formData.get("price");
+    const description = formData.get("description");
+    const errors = {};
+    if (!title) {
+        errors.title = "Title is required";
+    }
+    if (!price) {
+        errors.price = "Price is required";
+    }
+    if (!description) {
+        errors.description = "Description is required";
+    }
+    if (Object.keys(errors).length > 0) {
+        return {
+            errors
+        };
+    }
+    await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dataFetching$2f$prisma$2d$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["updateProduct"])(id, title, parseInt(price), description);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["redirect"])("/dataFetching/products-db");
+}
+async function removeProduct(id) {
+    await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dataFetching$2f$prisma$2d$db$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["deleteProduct"])(id);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["revalidatePath"])("/dataFetching/products-db");
+}
 ;
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ensureServerEntryExports"])([
-    createProduct
+    createProduct,
+    editProduct,
+    removeProduct
 ]);
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(createProduct, "601f7e5618d746e9a519342f3d705d154089301280", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(editProduct, "70be7e0d2c43132bb2c5591c2852d510c3541a78e2", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(removeProduct, "408592f8b30cfeb622e1e6f20983be5814db1e5155", null);
 }),
 "[project]/.next-internal/server/app/dataFetching/products-db-create/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/dataFetching/actions/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";

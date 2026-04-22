@@ -1,0 +1,20 @@
+{
+  "node": {
+    "70be7e0d2c43132bb2c5591c2852d510c3541a78e2": {
+      "workers": {
+        "app/dataFetching/products-db/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/dataFetching/products-db/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/dataFetching/actions/products.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "editProduct",
+          "filename": "app/dataFetching/actions/products.ts"
+        }
+      },
+      "layer": {
+        "app/dataFetching/products-db/[id]/page": "action-browser"
+      },
+      "exportedName": "editProduct",
+      "filename": "app/dataFetching/actions/products.ts"
+    }
+  },
+  "edge": {}
+}
