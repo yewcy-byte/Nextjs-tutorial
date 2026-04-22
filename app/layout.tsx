@@ -6,11 +6,13 @@ import {ErrorWrapper} from "./error-wrapper";
 
 import { ThemeProvider } from "./renderDemo/components/theme-provider";
 
+import Link from "next/link";
+
 import React from 'react';
 
 import "./globals.css";
 
-import { ClerkProvider, Show, SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
+import { ClerkProvider, Show, SignInButton, SignUpButton, UserButton, SignOutButton } from '@clerk/nextjs'
 import { Geist, Geist_Mono } from 'next/font/google'
 
 const geistSans = Geist({
@@ -48,6 +50,9 @@ export default function RootLayout({
             </Show>
             <Show when="signed-in">
               <UserButton />
+              <Link href="/authentication/user-profile">Profile</Link>
+              
+              <SignOutButton />
             </Show>
           </header>
           {children}

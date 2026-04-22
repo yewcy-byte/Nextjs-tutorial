@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/authentication/admin/page.tsx"],"sourcesContent":["export default function Admin(){\r\n    return <h1>Admin Page - Access Restricted</h1>;\r\n}\r\n\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBAAO,8OAAC;kBAAG;;;;;;AACf","debugId":null}}]
+}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Search } from "@/components/search";
+import {Counter} from "@/components/counter";
 
 
 export default function Home(){
@@ -12,6 +13,7 @@ export default function Home(){
         <Link href="/product">Products</Link>
         <br></br>
         <br></br>
+        <Counter />
 
         <Link href="/articles/breaking-news-123?lang=en">Read in English</Link>
                <br></br>

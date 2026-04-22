@@ -1,29 +1,52 @@
-import {NextResponse} from "next/server";
-import type {NextRequest} from "next/server";
-
-export function proxy(request: NextRequest){
-    //return NextResponse.redirect(new URL("/", request.url));
-
-// if (request.nextUrl.pathname ==='/profile'){
-//     return NextResponse.redirect(new URL("routeHandlers/hello", request.nextUrl));
-// }
-
-const response = NextResponse.next();
-const themePreference = request.cookies.get("theme");
-if (!themePreference){
-    response.cookies.set("theme", "dark");
-}
-
-response.headers.set("custom-header", "custom-value");
-
-return response;
-
-}
+import { clerkClient, clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+import { NextResponse } from 'next/server';
 
 
-import { clerkMiddleware } from '@clerk/nextjs/server';
+const isPublicRoute = createRouteMatcher(["/", "/sign-in(.*)", "/sign-up(.*)"]);
+const isAdminRoute = createRouteMatcher(["/authentication/admin(.*)"]);
 
-export default clerkMiddleware();
+export const proxy = clerkMiddleware(async(auth, request) => {
+  const { userId, redirectToSignIn } = await auth();
+
+  if (isAdminRoute(request)) {
+    if (!userId) {
+      return redirectToSignIn();
+    }
+
+    const client = await clerkClient();
+    const user = await client.users.getUser(userId);
+    const role = user.publicMetadata?.role;
+
+    console.log("[clerk proxy debug]", {
+      path: request.nextUrl.pathname,
+      userId,
+      role,
+      publicMetadata: user.publicMetadata,
+    });
+
+    if (role !== "admin") {
+      return NextResponse.redirect(new URL("/", request.url));
+    }
+  }
+
+  if (!userId && !isPublicRoute(request)) {
+    return redirectToSignIn();
+  }
+
+   /* if (!isPublicRoute(request)) {
+        await auth.protect();
+    }  */
+  
+    const response = NextResponse.next();
+  const themePreference = request.cookies.get('theme');
+
+  if (!themePreference) {
+    response.cookies.set('theme', 'dark');
+  }
+
+  response.headers.set('custom-header', 'custom-value');
+  return response;
+});
 
 export const config = {
   matcher: [
