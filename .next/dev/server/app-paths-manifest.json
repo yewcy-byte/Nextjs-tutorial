@@ -1,7 +1,5 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/authentication/admin/page": "app/authentication/admin/page.js",
-  "/authentication/dashboard/page": "app/authentication/dashboard/page.js",
-  "/authentication/user-profile/[[...user-profile]]/page": "app/authentication/user-profile/[[...user-profile]]/page.js",
+  "/authentication/sign-up/[[...sign-up]]/page": "app/authentication/sign-up/[[...sign-up]]/page.js",
   "/page": "app/page.js"
 }
