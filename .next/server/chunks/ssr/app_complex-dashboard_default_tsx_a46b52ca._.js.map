@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/complex-dashboard/default.tsx"],"sourcesContent":["export default function ComplexDashboardDefaultPage(){\r\n    return <h1>Complex Dashboard Default </h1>\r\n}"],"names":[],"mappings":"uDAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,8BACf"}

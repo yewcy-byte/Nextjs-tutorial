@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/utils/server-utils.ts"],"sourcesContent":["import \"server-only\";\r\n\r\nexport const serverSideFunction  =()=>{\r\n    console.log(\r\n        \"Using multiple libraries\",\r\n        \"Using environment variables\",\r\n        \"Interacting with database\",\r\n        \"Processing confidential information\"\r\n    );\r\n    \r\n    \r\n    \r\n    \r\n    return \"server result\";\r\n};"],"names":[],"mappings":";;;;AAAA;;AAEO,MAAM,qBAAqB;IAC9B,QAAQ,GAAG,CACP,4BACA,+BACA,6BACA;IAMJ,OAAO;AACX","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/client-route/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { serverSideFunction } from \"@/utils/server-utils\";\r\n\r\n\r\n\r\nexport default function ClientRoutePage(){\r\n    const result = serverSideFunction();\r\n    return <h1> Client Route Page {result}</h1>;\r\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAMe,SAAS;IACpB,MAAM,SAAS,IAAA,8IAAkB;IACjC,qBAAO,8OAAC;;YAAG;YAAoB;;;;;;;AACnC","debugId":null}},
-    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/node_modules/next/dist/compiled/server-only/index.js"],"sourcesContent":["throw new Error(\n  \"This module cannot be imported from a Client Component module. \" +\n    \"It should only be used from a Server Component.\"\n);\n"],"names":[],"mappings":"AAAA,MAAM,IAAI,MACR,oEACE","ignoreList":[0],"debugId":null}}]
-}

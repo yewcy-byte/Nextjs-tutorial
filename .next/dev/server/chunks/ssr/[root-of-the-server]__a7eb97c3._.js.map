@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/interleaving/page.tsx"],"sourcesContent":["\r\nimport { ServerComponentOne } from \"@/components/server-component-one\";\r\nimport { ClientComponentOne} from \"@/components/client-component-one\";\r\n\r\nexport default function InterleavingPage(){\r\n    return(\r\n        <div>\r\n            <h1>Interleaving Page</h1>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;AAIe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGhB","debugId":null}}]
-}

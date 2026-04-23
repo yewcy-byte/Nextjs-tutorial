@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/about/page.tsx"],"sourcesContent":["export const metadata={\r\n\r\n    title:\"About Yew\"\r\n};\r\n\r\n\r\n\r\n\r\nexport  default function About(){\r\n    return <h1>About Me</h1>;\r\n}"],"names":[],"mappings":"oVAQgB,SAAS,IACrB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,YACf,mCAVsB,CAElB,MAAM,WACV"}

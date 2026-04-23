@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/blog/page.tsx"],"sourcesContent":["import {Metadata} from \"next\";\r\nimport Link from \"next/link\";\r\n\r\n\r\nexport const metadata: Metadata ={\r\n    title: {\r\n        absolute:\"Blog\",\r\n    }\r\n};\r\n\r\nexport  default async function Blog(){\r\n\r\n    await new Promise((resolve) =>{\r\n        setTimeout(()=>{resolve(\"Intentional delay\");\r\n\r\n        },2000);\r\n    });\r\n\r\n    return (\r\n    <>\r\n    <h1>My Blog</h1>\r\n    <Link href=\"/\">Home</Link>\r\n    </>\r\n    \r\n\r\n    );\r\n}"],"names":[],"mappings":";;;;;;;AACA;;;AAGO,MAAM,WAAoB;IAC7B,OAAO;QACH,UAAS;IACb;AACJ;AAEgB,eAAe;IAE3B,MAAM,IAAI,QAAQ,CAAC;QACf,WAAW;YAAK,QAAQ;QAExB,GAAE;IACN;IAEA,qBACA;;0BACA,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,0LAAI;gBAAC,MAAK;0BAAI;;;;;;;;AAKnB","debugId":null}}]
-}

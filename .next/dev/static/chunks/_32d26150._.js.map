@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/product/%5BproductId%5D/error.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport {useRouter} from \"next/navigation\";\r\nimport {startTransition} from \"react\";\r\n\r\n\r\n\r\nexport default function ErrorBoundary({error, reset}:{\r\n    error: Error;\r\n    reset: () => void;\r\n}){\r\n\r\n            const router = useRouter();\r\n        const reload = () =>{\r\n            startTransition(() => {\r\n                router.refresh();\r\n                reset();\r\n            });\r\n        }\r\n\r\n    return (\r\n\r\n        <div>\r\n                <p>{error.message}</p>\r\n    <button onClick={reload}>Try Again</button>\r\n\r\n        </div>\r\n\r\n\r\n\r\n);\r\n}"],"names":[],"mappings":";;;;;AAEA;AACA;;;AAHA;;;AAOe,SAAS,cAAc,EAAC,KAAK,EAAE,KAAK,EAGlD;;IAEW,MAAM,SAAS,IAAA,kJAAS;IAC5B,MAAM,SAAS;QACX,IAAA,gLAAe,EAAC;YACZ,OAAO,OAAO;YACd;QACJ;IACJ;IAEJ,qBAEI,6LAAC;;0BACO,6LAAC;0BAAG,MAAM,OAAO;;;;;;0BAC7B,6LAAC;gBAAO,SAAS;0BAAQ;;;;;;;;;;;;AAO7B;GAxBwB;;QAKG,kJAAS;;;KALZ","debugId":null}},
-    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
-}

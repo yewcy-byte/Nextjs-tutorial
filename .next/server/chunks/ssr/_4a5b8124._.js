@@ -1,3 +1,0 @@
-module.exports=[72722,a=>{"use strict";var b=a.i(7997);a.s(["Card",0,({children:a})=>(0,b.jsx)("div",{style:{padding:"100px",margin:"10px",boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2)",border:"1px solid #ddd",display:"flex",justifyContent:"center",alignItems:"center"},children:a})])},92530,a=>{"use strict";var b=a.i(7997),c=a.i(72722);function d(){return(0,b.jsx)(c.Card,{children:"Please Login"})}a.s(["default",()=>d])}];
-
-//# sourceMappingURL=_4a5b8124._.js.map

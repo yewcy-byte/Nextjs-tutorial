@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/renderDemo/client-route/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useTheme } from '../components/theme-provider';\r\n\r\nimport React from 'react';\r\nimport Slider from 'react-slick';\r\nimport 'slick-carousel/slick/slick.css';\r\nimport 'slick-carousel/slick/slick-theme.css';\r\n\r\nimport { serverSideFunction } from \"@/utils/server-utils\";\r\n\r\n\r\n\r\nexport default function ClientRoutePage(){\r\n    const theme = useTheme();\r\n    const settings = {\r\n    dots: true,\r\n  };\r\n  return (\r\n    <h1 style = {{color : theme.colors.secondary}}>Client Route</h1>\r\n    \r\n  );\r\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;;;AAae,SAAS;IACpB,MAAM,QAAQ,IAAA,iKAAQ;IACtB,MAAM,WAAW;QACjB,MAAM;IACR;IACA,qBACE,8OAAC;QAAG,OAAS;YAAC,OAAQ,MAAM,MAAM,CAAC,SAAS;QAAA;kBAAG;;;;;;AAGnD","debugId":null}}]
-}

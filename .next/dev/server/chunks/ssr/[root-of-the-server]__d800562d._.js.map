@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/authentication/user-profile/%5B%5B...user-profile%5D%5D/page.tsx"],"sourcesContent":["import { UserProfile } from \"@clerk/nextjs\";\r\n\r\n\r\nexport default function userProfilePage() {\r\n    return (\r\n        <div className=\"flex justify-center items-center py-8\">\r\n            <UserProfile path=\"/authentication/user-profile\"  />\r\n        </div>\r\n    \r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC,qMAAW;YAAC,MAAK;;;;;;;;;;;AAI9B","debugId":null}}]
-}

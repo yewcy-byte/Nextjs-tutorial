@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/dashboard/page.tsx"],"sourcesContent":["function BarChart(){\r\n    return <h1>Bar Chart</h1>;\r\n}\r\n\r\n\r\nexport default function Dashboard(){\r\n    return <h1>Dashboard</h1>;\r\n}"],"names":[],"mappings":"oVAKe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,aACf"}

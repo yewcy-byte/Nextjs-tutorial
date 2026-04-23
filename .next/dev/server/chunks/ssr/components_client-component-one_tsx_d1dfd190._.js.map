@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/components/client-component-one.tsx"],"sourcesContent":["\"use client\";\r\nimport {useState} from \"react\";\r\nimport { ClientComponentTwo } from \"@/components/client-component-two\";\r\n\r\nimport { ServerComponentOne } from \"@/components/server-component-one\";\r\n\r\n\r\nexport const ClientComponentOne = ({children,}:{children: React.ReactNode}) =>{\r\n    const [name,setName] = useState(\"John Doe\");\r\n    return (\r\n        <div>\r\n            <h1>Client Component One</h1>\r\n            {children}\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;AACA;AADA;;;AAOO,MAAM,qBAAqB,CAAC,EAAC,QAAQ,EAA8B;IACtE,MAAM,CAAC,MAAK,QAAQ,GAAG,IAAA,iNAAQ,EAAC;IAChC,qBACI,8OAAC;;0BACG,8OAAC;0BAAG;;;;;;YACH;;;;;;;AAGb","debugId":null}}]
-}

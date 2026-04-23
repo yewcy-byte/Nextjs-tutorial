@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,31939,t=>{"use strict";var e=t.i(43476),n=t.i(71645);t.s(["Counter",0,()=>{let[t,i]=(0,n.useState)(0);return(0,e.jsxs)("div",{children:[(0,e.jsxs)("p",{children:["Count : ",t]}),(0,e.jsx)("button",{onClick:()=>i(t+1),children:" Increment"})]})}])}]);

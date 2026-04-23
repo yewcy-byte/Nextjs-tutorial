@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/not-found.tsx"],"sourcesContent":["export default function Notfound (){\r\n    return(\r\n        <div>\r\n            <h2>Page not found</h2>\r\n            <p>Cannot find la pundeh</p>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;;0BACG,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGf","debugId":null}}]
-}

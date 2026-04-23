@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/components/nav-search.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useState } from \"react\";\r\n\r\nexport const NavSearch = () =>{\r\n    const [search, setSearch] = useState(\"\");\r\n\r\n    console.log(\"NavSearch rendered\");\r\n    return <div>Search functionality</div>;\r\n    \r\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIO,MAAM,YAAY;IACrB,MAAM,CAAC,QAAQ,UAAU,GAAG,IAAA,iNAAQ,EAAC;IAErC,QAAQ,GAAG,CAAC;IACZ,qBAAO,8OAAC;kBAAI;;;;;;AAEhB","debugId":null}}]
-}

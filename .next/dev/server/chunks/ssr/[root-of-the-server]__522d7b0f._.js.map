@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/app/profile/page.tsx"],"sourcesContent":["export  default function Profile(){\r\n    return <h1>My profile</h1>;\r\n}"],"names":[],"mappings":";;;;;;AAAgB,SAAS;IACrB,qBAAO,8OAAC;kBAAG;;;;;;AACf","debugId":null}}]
-}

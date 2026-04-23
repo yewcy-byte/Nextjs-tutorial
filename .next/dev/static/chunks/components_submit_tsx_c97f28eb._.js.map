@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/components/submit.tsx"],"sourcesContent":["\"use client\";\r\nimport { useFormStatus } from \"react-dom\";\r\n\r\nexport const Submit = () => {\r\nconst {pending} = useFormStatus();\r\n\r\nreturn(\r\n     <button\r\n        type=\"submit\"\r\n        className=\"block w-full p-2 text-white bg-blue-500 rounded disabled:bg-gray-500\"\r\n        disabled={pending}\r\n      >\r\n        Add Product\r\n      </button>\r\n)\r\n\r\n}"],"names":[],"mappings":";;;;;AACA;;;AADA;;AAGO,MAAM,SAAS;;IACtB,MAAM,EAAC,OAAO,EAAC,GAAG,IAAA,qLAAa;IAE/B,qBACK,6LAAC;QACE,MAAK;QACL,WAAU;QACV,UAAU;kBACX;;;;;;AAKP;GAba;;QACK,qLAAa;;;KADlB","debugId":null}}]
-}

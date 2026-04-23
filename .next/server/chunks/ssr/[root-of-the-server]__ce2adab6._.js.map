@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/f4/page.tsx"],"sourcesContent":["export default function f4(){\r\n    return <h1>F4 page</h1>;\r\n}\r\n\r\n"],"names":[],"mappings":"oVAAe,SAAS,IACpB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,WACf"}

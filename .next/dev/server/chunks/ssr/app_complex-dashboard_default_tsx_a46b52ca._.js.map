@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/hello-world/app/complex-dashboard/default.tsx"],"sourcesContent":["export default function ComplexDashboardDefaultPage(){\r\n    return <h1>Complex Dashboard Default </h1>\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBAAO,8OAAC;kBAAG;;;;;;AACf","debugId":null}}]
-}

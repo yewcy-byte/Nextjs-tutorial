@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/components/client-component-two.tsx"],"sourcesContent":["\"use client\";\r\nimport {useState} from \"react\";\r\n\r\nexport const ClientComponentTwo = () =>{\r\n    const [name,setName] = useState(\"John Doe\");\r\n    return <h1>Client Component Two</h1>\r\n}"],"names":[],"mappings":";;;;;AACA;AADA;;;AAGO,MAAM,qBAAqB;IAC9B,MAAM,CAAC,MAAK,QAAQ,GAAG,IAAA,iNAAQ,EAAC;IAChC,qBAAO,8OAAC;kBAAG;;;;;;AACf","debugId":null}},
-    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Downloads/hello-world/Nextjs-tutorial/components/client-component-one.tsx"],"sourcesContent":["\"use client\";\r\nimport {useState} from \"react\";\r\nimport { ClientComponentTwo } from \"@/components/client-component-two\";\r\n\r\nimport { ServerComponentOne } from \"@/components/server-component-one\";\r\n\r\n\r\nexport const ClientComponentOne = () =>{\r\n    const [name,setName] = useState(\"John Doe\");\r\n    return (\r\n        <div>\r\n            <h1>Client Component One</h1>\r\n            <ClientComponentTwo />\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;AACA;AACA;AAFA;;;;AAOO,MAAM,qBAAqB;IAC9B,MAAM,CAAC,MAAK,QAAQ,GAAG,IAAA,iNAAQ,EAAC;IAChC,qBACI,8OAAC;;0BACG,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,+JAAkB;;;;;;;;;;;AAG/B","debugId":null}}]
-}

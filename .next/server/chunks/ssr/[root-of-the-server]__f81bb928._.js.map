@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/complex-dashboard/@users/page.tsx"],"sourcesContent":["import { Card } from \"@/components/Card\";\r\n\r\nexport default function UserAnalytics() {\r\n  return <Card>User Analystics</Card>;\r\n}"],"names":[],"mappings":"qfAAA,EAAA,EAAA,CAAA,CAAA,OAEe,SAAS,IACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,EAAA,IAAI,CAAA,UAAC,mBACf"}
